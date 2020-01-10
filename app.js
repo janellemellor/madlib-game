@@ -1,3 +1,4 @@
+
 function fillInBlank() {
 
     const nounInputOne = document.getElementById('noun input one');
@@ -32,6 +33,13 @@ function fillInBlank() {
     const nounOutputSix = nounInputSix.value;
     nounSix.textContent = nounOutputSix;
 
+    const hidden = document.getElementById("hidden");
+    if (hidden.style.display === "none") {
+      hidden.style.display = "block";
+    } else {
+      hidden.style.display = "none";
+    }
 }
 
 button.addEventListener('click', fillInBlank);
+
