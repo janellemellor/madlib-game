@@ -1,5 +1,72 @@
+* {
+    cursor: pointer;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+    color: #39ff14;
+    background-color: black;
+    font-family: inherit;
+}
+
+.words{
+    display: block;
+    align-content: center;
+    background-color: black;
+    color: #39ff14;
+    border: ridge 5px #39ff14;
+    font-size: 25px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+   
+}
+
+input {
+  display: inline-block;
+  float: right;
+  background-color: #39ff14;
+  font-size: 13px;
+  text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px;
+    background-color: #39ff14;
+    font-size: 20px;
+}
+
+#button {
+    text-align: center;
+}
+
+div {
+
+}
+
+p {
+    color: #39ff14;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
 .hidden {
     display: none;
 }
-
-/*Go to this link to learn how to hide content with better accessibility: https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
